@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> page 3</title>
+    </head>
+    <body>
+        <br>
+        <br>
+        <h1> <a href="help_page.html"; style="text-align: center;"> Click here to help you solve these question </a></h1>
+        <h1 style="text-align: center;">Question Nine
+        </h1>
+        <h4 style="text-align: center;">The Empirical Formula</h4>
+        <style>
+        .Question_Nine{
+           border: 2px solid #000;
+         padding: 10px;
+           width: fit-content;
+          margin: 0 auto;
+        }
+        .container9{
+       display: flex; 
+       justify-content: center; 
+       align-items: center;
+       min-height: 200px; 
+       
+       }
+       textarea {
+       
+       width: 300px;
+       height: 100px;
+       
+       padding: 10px;
+       border: 1px solid #ccc;
+       box-sizing: border-box; 
+       }
+       
+       
+       .hidden-image9 {
+           display: none;
+           text-align: center;
+           margin-top: 20px;
+       }
+       
+       .hidden-image9 img {
+           width: 200px;
+           height: auto;
+       }
+       body{
+            background-color: rgb(57, 140, 50);
+        }
+        </style>
+        <div class="Question_Nine">
+       What is the Empirical Formula of 35% Oxygen 15% Slufer 25% Fluorine 25% Potassium ?
+        </div>
+        <div class="container9">
+           <textarea id="inputText9" placeholder="Type here..."></textarea>
+         <button onclick="checkInput9()">Submit</button>
+        </div>
+        <div class="hidden-image9" id="rightContainer9"> 
+           <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+           </div >
+           <div class="hidden-image9" id="worongContainer9">
+           <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+           </div>
+           <script>
+           function checkInput9() {
+               const correct9 = "K3S2F6O9";
+               const text = document.getElementById('inputText9').value;
+               const rightContainer9 = document.getElementById('rightContainer9');
+               const worongContainer9 = document.getElementById('worongContainer9');
+          
+               if (text.includes("K3S2F6O9")) {
+               
+                   rightContainer9.style.display = 'block';
+                   worongContainer9.style.display = 'none'
+               } else {
+                   worongContainer9.style.display = 'block';
+                   rightContainer9.style.display = 'none';
+               }
+               
+           }
+           </script>
+            <br>
+            <br>
+            <h1 style="text-align: center;">Question Ten
+            </h1>
+            <h4 style="text-align: center;">The Molecular Formula</h4>
+            <style>
+            .Question_Ten{
+               border: 2px solid #000;
+             padding: 10px;
+               width: fit-content;
+              margin: 0 auto;
+            }
+            .container10{
+           display: flex; 
+           justify-content: center; 
+           align-items: center;
+           min-height: 200px; 
+           
+           }
+           textarea {
+           
+           width: 300px;
+           height: 100px;
+           
+           padding: 10px;
+           border: 1px solid #ccc;
+           box-sizing: border-box; 
+           }
+           
+           
+           .hidden-image10 {
+               display: none;
+               text-align: center;
+               margin-top: 20px;
+           }
+           
+           .hidden-image10 img {
+               width: 200px;
+               height: auto;
+           }
+           
+            </style>
+            <div class="Question_Ten">
+           What is the Molecular Formula of NaC2H4 the molar mass is determined experimentally to be 200 g/mol.?
+            </div>
+            <div class="container10">
+               <textarea id="inputText10" placeholder="Type here..."></textarea>
+             <button onclick="checkInput10()">Submit</button>
+            </div>
+            <div class="hidden-image10" id="rightContainer10"> 
+               <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+               </div >
+               <div class="hidden-image10" id="worongContainer10">
+               <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+               </div>
+               <script>
+               function checkInput10() {
+                   const correct10 = "Na4C8H16";
+                   const text = document.getElementById('inputText10').value;
+                   const rightContainer10 = document.getElementById('rightContainer10');
+                   const worongContainer10 = document.getElementById('worongContainer10');
+                
+                   if (text.includes("Na4C8H16")) {
+                   
+                       rightContainer10.style.display = 'block';
+                       worongContainer10.style.display = 'none'
+                   } else {
+                       worongContainer10.style.display = 'block';
+                       rightContainer10.style.display = 'none';
+                   }
+                   
+               }
+               </script>
+              <h1> <a href="Thank_you.html"; style="text-align: center;"> End page </a></h1>
+    </body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title> problem One</title>
+  <br> 
+  <br>
+  <h1> <a href="help_page.html"; style="text-align: center;"> Click here to help you solve these question </a></h1>
+  <h1 style="text-align: center;">Qustion One</h1>
+  <h4 style="text-align: center;">Mole to gram</h4>
+    </head>
+       <style>
+       .Qustion_one{
+      display: grid;
+          place-items: center; 
+         border: 2px solid #000;
+          padding: 10px;
+            width: fit-content;
+           margin: 0 auto;
+       }
+           </style> 
+          <style>
+            
+           body{
+            background-color: rgb(57, 140, 50);
+             
+        }
+          </style>
+       
+       </style>
+ <style>
+    .container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 200px; 
+    
+  }
+  textarea {
+    
+    width: 300px;
+    height: 100px;
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    
+  }
+  .hidden-image {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .hidden-image img {
+            width: 200px;
+            height: auto;
+        }
+        
+ </style>
+
+      <body>
+        <div class="Qustion_one"> How many grams are in 3.50 mole BrKH? </div>
+      
+        <div class="container">
+            <textarea id="inputText" placeholder="Type here..."></textarea>
+            <button onclick="checkInput()">Submit</button>
+        </div>
+         <div class="hidden-image" id="rightContainer"> 
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+         </div >
+         <div class="hidden-image" id="worongContainer">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+         </div>
+         <script>
+            function checkInput() {
+                const correct = "420g";
+                const text = document.getElementById('inputText').value;
+                const rightContainer = document.getElementById('rightContainer');
+                const worongContainer = document.getElementById('worongContainer');
+               
+                if (text.includes("420g")) {
+                
+                    rightContainer.style.display = 'block';
+                    worongContainer.style.display = 'none'
+                } else {
+                    worongContainer.style.display = 'block';
+                    rightContainer.style.display = 'none';
+                }
+            }
+        </script>
+        <br> 
+        <br>
+        
+        <h1 style="text-align: center;">Qustion two</h1>
+        <h4 style="text-align: center;">gram to mole</h4>
+        <style>
+          .Qustion_two{
+      
+         border: 2px solid #000;
+          padding: 10px;
+            width: fit-content;
+           margin: 0 auto;
+           }
+        </style>
+        <div class="Qustion_two">
+          How many mole are in 135g  FNaO?
+        </div>
+        <style>
+          .container2{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 200px; 
+    
+  }
+  textarea {
+   
+    width: 300px;
+    height: 100px;
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    
+  }
+  .hidden-image2 {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .hidden-image2 img {
+            width: 200px;
+            height: auto;
+        }
+        
+        </style>
+        <div class="container2">
+          <textarea id="inputText2" placeholder="Type here..."></textarea>
+          <button onclick="checkInput2()">Submit</button>
+      </div>
+      <div class="hidden-image2" id="rightContainer2"> 
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+     </div >
+     <div class="hidden-image2" id="worongContainer2">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+     </div>
+      <script>
+        function checkInput2() {
+            const correct2 = "3.22m";
+            const text = document.getElementById('inputText2').value;
+            const rightContainer2 = document.getElementById('rightContainer2');
+            const worongContainer2 = document.getElementById('worongContainer2');
+           
+            if (text.includes("3.22m")) {
+            
+                rightContainer2.style.display = 'block';
+                worongContainer2.style.display = 'none'
+            } else {
+                worongContainer2.style.display = 'block';
+                rightContainer2.style.display = 'none';
+            }
+            
+        }
+    </script>
+  <br> 
+  <br>
+  
+  <h1 style="text-align: center;">Qustion Three</h1>
+  <h4 style="text-align: center;">mole to molecules</h4>
+  <style>
+    .Qustion_Three{
+
+   border: 2px solid #000;
+    padding: 10px;
+      width: fit-content;
+     margin: 0 auto;
+     }
+  </style>
+  <div class="Qustion_Three">
+    How many molecules are in 2.9mole  BaNH2?
+  </div>
+  <style>
+    .container3{
+display: flex; 
+justify-content: center;
+align-items: center; 
+min-height: 200px; 
+
+}
+textarea{
+
+width: 300px;
+height: 100px;
+
+padding: 10px;
+border: 1px solid #ccc;
+box-sizing: border-box; 
+
+}
+.hidden-image3 {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .hidden-image3 img {
+      width: 200px;
+      height: auto;
+  }
+  
+  </style>
+  <div class="container3">
+    <textarea id="inputText3" placeholder="Type here..."></textarea>
+    <button onclick="checkInput3()">Submit</button>
+</div>
+<div class="hidden-image3" id="rightContainer3"> 
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+</div >
+<div class="hidden-image3" id="worongContainer3">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+</div>
+<script>
+  function checkInput3() {
+      const correct3 = "1.7 x 10^24 molecules.";
+      const text = document.getElementById('inputText3').value;
+      const rightContainer3 = document.getElementById('rightContainer3');
+      const worongContainer3 = document.getElementById('worongContainer3');
+      
+      if (text.includes("1.7 x 10^24 molecules.")) {
+      
+          rightContainer3.style.display = 'block';
+          worongContainer3.style.display = 'none'
+      } else {
+          worongContainer3.style.display = 'block';
+          rightContainer3.style.display = 'none';
+      }
+      
+  }
+</script>
+<br> 
+<br>
+
+<h1 style="text-align: center;">Qustion Four</h1>
+<h4 style="text-align: center;">molecules to mole</h4>
+<style>
+  .Qustion_Four{
+
+ border: 2px solid #000;
+  padding: 10px;
+    width: fit-content;
+   margin: 0 auto;
+   }
+</style>
+<div class="Qustion_Four">
+  How many mole are in 2.3*10^23 molecules NO3S2?
+</div>
+<style>
+  .container4{
+display: flex; 
+justify-content: center; 
+align-items: center;
+min-height: 200px; 
+}
+textarea {
+
+width: 300px;
+height: 100px;
+
+padding: 10px;
+border: 1px solid #ccc;
+box-sizing: border-box; 
+
+}
+.hidden-image4 {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hidden-image4 img {
+    width: 200px;
+    height: auto;
+}
+
+</style>
+<div class="container4">
+  <textarea id="inputText4" placeholder="Type here..."></textarea>
+  <button onclick="checkInput4()">Submit</button>
+</div>
+<div class="hidden-image4" id="rightContainer4"> 
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+</div >
+<div class="hidden-image4" id="worongContainer4">
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+</div>
+<script>
+function checkInput4() {
+    const correct2 = "0.38mole";
+    const text = document.getElementById('inputText4').value;
+    const rightContainer4 = document.getElementById('rightContainer4');
+    const worongContainer4 = document.getElementById('worongContainer4');
+
+    if (text.includes("0.38mole")) {
+    
+        rightContainer4.style.display = 'block';
+        worongContainer4.style.display = 'none'
+    } else {
+        worongContainer4.style.display = 'block';
+        rightContainer4.style.display = 'none';
+    }
+    
+}
+</script>
+
+<h1><a href="Page2_.html"; style="text-align: center;"> page2 </a></h1>
+      </body>
+</html>

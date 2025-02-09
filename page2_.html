@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Page 2</title>
+    </head>
+    <body>
+ <br>
+ <br>
+ <h1> <a href="help_page.html"; style="text-align: center;"> Click here to help you solve these question </a></h1>
+ <h1 style="text-align: center;">Question Five
+ </h1>
+ <h4 style="text-align: center;">mole to volume</h4>
+ <style>
+ .Question_Five{
+    border: 2px solid #000;
+  padding: 10px;
+    width: fit-content;
+   margin: 0 auto;
+ }
+ .container5{
+display: flex; 
+justify-content: center; 
+align-items: center;
+min-height: 200px; 
+
+}
+textarea {
+
+width: 300px;
+height: 100px;
+
+padding: 10px;
+border: 1px solid #ccc;
+box-sizing: border-box; 
+}
+
+
+.hidden-image5 {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hidden-image5 img {
+    width: 200px;
+    height: auto;
+}
+
+           body{
+            background-color: rgb(57, 140, 50);
+        }
+ </style>
+ <div class="Question_Five">
+How many Liter are in 0.5mole?
+ </div>
+ <div class="container5">
+    <textarea id="inputText5" placeholder="Type here..."></textarea>
+  <button onclick="checkInput5()">Submit</button>
+ </div>
+ <div class="hidden-image5" id="rightContainer5"> 
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+    </div >
+    <div class="hidden-image5" id="worongContainer5">
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+    </div>
+    <script>
+    function checkInput5() {
+        const correct5 = "11.2L";
+        const text = document.getElementById('inputText5').value;
+        const rightContainer5 = document.getElementById('rightContainer5');
+        const worongContainer5 = document.getElementById('worongContainer5');
+       
+        if (text.includes("11.2L")) {
+        
+            rightContainer5.style.display = 'block';
+            worongContainer5.style.display = 'none'
+        } else {
+            worongContainer5.style.display = 'block';
+            rightContainer5.style.display = 'none';
+        }
+        
+    }
+    </script>
+    <br>
+    <br>
+    <h1 style="text-align: center;">Question Six
+    </h1>
+    <h4 style="text-align: center;">volume to mole</h4>
+    <style>
+    .Question_Six{
+       border: 2px solid #000;
+     padding: 10px;
+       width: fit-content;
+      margin: 0 auto;
+    }
+    .container6{
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   min-height: 200px; 
+   
+   }
+   textarea {
+   
+   width: 300px;
+   height: 100px;
+   
+   padding: 10px;
+   border: 1px solid #ccc;
+   box-sizing: border-box; 
+   }
+   
+   
+   .hidden-image6 {
+       display: none;
+       text-align: center;
+       margin-top: 20px;
+   }
+   
+   .hidden-image6 img {
+       width: 200px;
+       height: auto;
+   }
+   
+    </style>
+    <div class="Question_Six">
+   How many mole are in 14L ?
+    </div>
+    <div class="container6">
+       <textarea id="inputText6" placeholder="Type here..."></textarea>
+     <button onclick="checkInput6()">Submit</button>
+    </div>
+    <div class="hidden-image6" id="rightContainer6"> 
+       <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+       </div >
+       <div class="hidden-image6" id="worongContainer6">
+       <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+       </div>
+       <script>
+       function checkInput6() {
+           const correct6 = "0.63 mole";
+           const text = document.getElementById('inputText6').value;
+           const rightContainer6 = document.getElementById('rightContainer6');
+           const worongContainer6 = document.getElementById('worongContainer6');
+          
+           if (text.includes("0.63 mole")) {
+           
+               rightContainer6.style.display = 'block';
+               worongContainer6.style.display = 'none'
+           } else {
+               worongContainer6.style.display = 'block';
+               rightContainer6.style.display = 'none';
+           }
+           
+       }
+       </script>
+       <br>
+       <br>
+       <h1 style="text-align: center;">Question Seven
+       </h1>
+       <h4 style="text-align: center;">gram to atom</h4>
+       <style>
+       .Question_Seven{
+          border: 2px solid #000;
+        padding: 10px;
+          width: fit-content;
+         margin: 0 auto;
+       }
+       .container7{
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      min-height: 200px; 
+      
+      }
+      textarea {
+      
+      width: 300px;
+      height: 100px;
+      
+      padding: 10px;
+      border: 1px solid #ccc;
+      box-sizing: border-box; 
+      }
+      
+      
+      .hidden-image7 {
+          display: none;
+          text-align: center;
+          margin-top: 20px;
+      }
+      
+      .hidden-image7 img {
+          width: 200px;
+          height: auto;
+      }
+      
+       </style>
+       <div class="Question_Seven">
+      How many atoms are in 4g NH3O4?
+       </div>
+       <div class="container7">
+          <textarea id="inputText7" placeholder="Type here..."></textarea>
+        <button onclick="checkInput7()">Submit</button>
+       </div>
+       <div class="hidden-image7" id="rightContainer7"> 
+          <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+          </div >
+          <div class="hidden-image7" id="worongContainer7">
+          <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+          </div>
+          <script>
+          function checkInput7() {
+              const correct7 = "2.38 x 10^23 atoms";
+              const text = document.getElementById('inputText7').value;
+              const rightContainer7 = document.getElementById('rightContainer7');
+              const worongContainer7 = document.getElementById('worongContainer7');
+             
+              if (text.includes("2.38 x 10^23 atoms")) {
+              
+                  rightContainer7.style.display = 'block';
+                  worongContainer7.style.display = 'none'
+              } else {
+                  worongContainer7.style.display = 'block';
+                  rightContainer7.style.display = 'none';
+              }
+              
+          }
+          </script>
+          <br>
+          <br>
+          <h1 style="text-align: center;">Question Eight
+          </h1>
+          <h4 style="text-align: center;"> atom to gram</h4>
+          <style>
+          .Question_Eight{
+             border: 2px solid #000;
+           padding: 10px;
+             width: fit-content;
+            margin: 0 auto;
+          }
+          .container8{
+         display: flex; 
+         justify-content: center; 
+         align-items: center;
+         min-height: 200px; 
+         
+         }
+         textarea {
+         
+         width: 300px;
+         height: 100px;
+         
+         padding: 10px;
+         border: 1px solid #ccc;
+         box-sizing: border-box; 
+         }
+         
+         
+         .hidden-image8 {
+             display: none;
+             text-align: center;
+             margin-top: 20px;
+         }
+         
+         .hidden-image8 img {
+             width: 200px;
+             height: auto;
+         }
+         
+          </style>
+          <div class="Question_Eight">
+         How many gram are in 6.3*10^23 atoms FH9Mg2 ?
+          </div>
+          <div class="container8">
+             <textarea id="inputText8" placeholder="Type here..."></textarea>
+           <button onclick="checkInput8()">Submit</button>
+          </div>
+          <div class="hidden-image8" id="rightContainer8"> 
+             <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2h6d2J4MHI4M3RwcnY3a2E2Y3hmbDJyMzkyaGQ0YTZ1Z3A0dHVwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijzuUzUhm7hcWinGn/giphy.gif" alt="420g">
+             </div >
+             <div class="hidden-image8" id="worongContainer8">
+             <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xxdDkxMHd2ZDJlZGNqd215MmZpMm1iZDQ2bHI2bnNrcm05dWk5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kDTDqGrb7vzUuY9T2P/giphy.gif" alt="wrong">
+             </div>
+             <script>
+             function checkInput8() {
+                 const correct6 = " 80.44 grams";
+                 const text = document.getElementById('inputText8').value;
+                 const rightContainer6 = document.getElementById('rightContainer8');
+                 const worongContainer6 = document.getElementById('worongContainer8');
+                
+                 if (text.includes(" 80.44 grams")) {
+                 
+                     rightContainer8.style.display = 'block';
+                     worongContainer8.style.display = 'none'
+                 } else {
+                     worongContainer8.style.display = 'block';
+                     rightContainer8.style.display = 'none';
+                 }
+                 
+             }
+             </script>
+             <h1><a href="Page3_.html"; style="text-align: center;"> page3 </a></h1>
+    </body>
+</html>
